@@ -10,7 +10,6 @@
                                 <li><a href="#hello">Hello</a></li>
                                 <li><a href="#resume">Resume</a></li>
                                 <li><a href="#portfolio">Portfolio</a></li>
-                                <li><a href="#testimonials">testimonials</a></li>
                                 <li><a href="#blog">blog</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
@@ -37,7 +36,6 @@
                         <li><a href="#hello">Hello</a></li>
                         <li><a href="#resume">Resume</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#testimonials">testimonials</a></li>
                         <li><a href="#blog">blog</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>

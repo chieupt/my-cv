@@ -18,15 +18,15 @@
                                 <dt>Phone:</dt>
                                 <dd><a href="tel:0364661495">(+84) 0364661495</a></dd>
                                 <dt>Email:</dt>
-                                <dd><a href="mailto:mail@mail.com">ptchieu1998@mail.com</a></dd>
+                                <dd><a href="mailto:ptchieu1998@mail.com">ptchieu1998@mail.com</a></dd>
                                 <dt>Address:</dt>
                                 <dd>19, Street 23, Phong Phu Commune, Binh Chanh District</dd>
                             </dl>
                         </div>
                         <p class="personal-profile__social">
-                            <a href="spirit.html" target="_blank"><i class="fa fa-github"></i></a>
-                            <a href="spirit.html" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-                            <a href="spirit.html" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                            <a href="https://github.com/chieupt" target="_blank"><i class="fa fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/ptchieu/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                            <a href="https://www.facebook.com/ptchieu.hcmus/" target="_blank"><i class="fa fa-facebook-square"></i></a>
                         </p>
                     </div>
                 </div>
@@ -38,10 +38,9 @@
                 <div class="col-md-10">
                     <h2 id="hello_header" class="section__title">Hi_</h2>
                     <p class="section__description">
-                        I am Junior Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. Skilled at writing well-designed, testable and efficient code using current
-                        best practices in Web development. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia Web tools.
+                        I am Junior Web developer with 1 year of experience. Now, I'm working on the Vuejs framework combined with Laravel and My SQL. I am a careful and hardworking person. I am eager to learn new things and willing to work in a team. I am rather serious at work and can work under high pressure. 
                     </p>
-                    <a href="spirit.html" class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
+                    <a  class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
                 </div>
             </div>
         </section>
@@ -49,7 +48,6 @@
         <hr />
         <ResumeComponent/>
         <PortfolioComponent/>
-        <BlogComponent/>
         <ContactComponent/>
 
         <!-- Portfolio Modal -->
@@ -70,9 +68,7 @@
                             anim id est laborum. Sed ut perspiciatis undeomnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae
                             vitae dicta sunt explicabo.Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia conse.
                         </p>
-                        <div class="portfolio-modal__link">
-                            <a href="spirit.html">www.superapp.com</a>
-                        </div>
+                      
                         <div class="portfolio-modal__stack">
                             <p class="portfolio-modal__stack-title">Using stack:</p>
                             <ul class="tags">
