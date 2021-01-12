@@ -40,7 +40,7 @@
                     <p class="section__description">
                         I am Junior Web developer with 1 year of experience. Now, I'm working on the Vuejs framework combined with Laravel and My SQL. I am a careful and hardworking person. I am eager to learn new things and willing to work in a team. I am rather serious at work and can work under high pressure. 
                     </p>
-                    <a  class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
+                    <a @click="downloadCv" class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
                 </div>
             </div>
         </section>
@@ -108,6 +108,10 @@
     export default class Home extends Vue {
         mounted(){
             window.core.ui.loadJs();
+        }
+
+        downloadCv(){
+            alert('Oops!Comming soon :(');
         }
     }
 </script>

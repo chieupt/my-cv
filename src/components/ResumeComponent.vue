@@ -4,10 +4,6 @@
             <div class="row">
                 <div class="col-md-10">
                     <h2 id="resume_header" class="section__title">Resume_</h2>
-                    <p class="section__description">
-                        Lorem ipsum dolor sit amet, <i><b>communication</b></i> adipisicing elit, <i><b>helpful</b></i> eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        <i><b>sence of humour</b></i> ullamco laboris nisi ut <i><b>honest</b></i> ea commodo consequat. Duis aute irure dolor in upper-intermediate english level velit dolore eu ivivdtevoluptatem ontend developer.
-                    </p>
                 </div>
             </div>
             <div class="row">
