@@ -40,7 +40,7 @@
                     <p class="section__description">
                         I am Junior Web developer with 1 year of experience. Now, I'm working on the Vuejs framework combined with Laravel and My SQL. I am a careful and hardworking person. I am eager to learn new things and willing to work in a team. I am rather serious at work and can work under high pressure. 
                     </p>
-                    <a @click="downloadCv" class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
+                    <a href="/chieupt-cv.pdf" download class="section_btn site-btn"><img src="images/img-img_btn_icon.png" alt="" />Download CV</a>
                 </div>
             </div>
         </section>
@@ -87,6 +87,8 @@
 </template>
 
 <script lang="ts">
+    import Axios from "axios";
+
     import { Component, Vue } from "vue-property-decorator";
     import HomeComponent from "@/components/HomeComponent.vue";
     import BlogComponent from "@/components/BlogComponent.vue";
@@ -111,7 +113,15 @@
         }
 
         downloadCv(){
-            alert('Oops!Comming soon :(');
+            Axios.get("https://drive.google.com/drive/u/2/my-drive", { responseType: 'blob' })
+                .then(response => {
+                  const blob = new Blob([response.data], { type: 'application/pdf' });
+                  const link = document.createElement('a');
+                  link.href = URL.createObjectURL(blob);
+                  link.download = 'chieupt-cv';
+                  link.click();
+                  URL.revokeObjectURL(link.href);
+                }).catch(console.error)
         }
     }
 </script>
