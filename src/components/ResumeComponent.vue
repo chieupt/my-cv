@@ -69,15 +69,6 @@
                             <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    <div class="progress-list__skill">
-                        <p>
-                            <span class="progress-list__skill-title">nodejs</span>
-                            <span class="progress-list__skill-value">60%</span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
                 </div>
                 <div class="col-md-5 mr-auto">
                     <div class="progress-list__skill">
@@ -89,15 +80,7 @@
                             <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
-                    <div class="progress-list__skill">
-                        <p>
-                            <span class="progress-list__skill-title">bootstrap 3</span>
-                            <span class="progress-list__skill-value">60%</span>
-                        </p>
-                        <div class="progress">
-                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
+                    
                     <div class="progress-list__skill">
                         <p>
                             <span class="progress-list__skill-title">git</span>

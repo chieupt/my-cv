@@ -25,9 +25,9 @@
                     </div>
 
                     <div class="col-md-6 col-lg-7 project-card__info">
-                        <h3 class="project-card__title">KYUDO SYSTEM</h3>
+                        <h3 class="project-card__title">KYUDO PROJECT</h3>
                         <p class="project-card__description">
-                            Management and maintenance system
+                             This is the system for managing members of the archery system of the Japanese federation
                         </p>
                         <p class="project-card__stack">Used stack:</p>
                         <ul class="tags">
@@ -67,16 +67,13 @@
                     </div>
 
                     <div class="col-md-6 col-lg-7 project-card__info">
-                        <h3 class="project-card__title">Enercom system</h3>
+                        <h3 class="project-card__title">DNP system</h3>
                         <p class="project-card__description">
-                            User management system, electrical system maintenance for Japanese enterprises
+                            Bug fixing, maintaince code based on Cornet framework(dnp development)
                         </p>
                         <p class="project-card__stack">Used stack:</p>
                         <ul class="tags">
-                            <li>html5</li>
-                            <li>css3</li>
-                            <li>JavaScript</li>
-                            <li>CakePHP</li>
+                            <li>PHP</li>
                         </ul>
                     </div>
                 </div>
